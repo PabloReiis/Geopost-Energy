@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Copa 2022</title>
+  <!-- ícone da página -->
+  <link rel="icon" href="/img/favicon-16x16.ico" type="image/x-icon">
+  <!-- arquivos de css -->
+  <link rel="stylesheet" type="text/css" sizes="16x16" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="js/methods.js"></script>
+  <script src="js/generateGroups.js"></script>
+</head>
+
+<body>
+  <section class="row">
+    <div class="div-table column">
+      <table class="A">
+        <th>Grupo A</th>
+        <th>Pontos</th>
+        <th>Gols</th>
+      </table>
+      <table class="B">
+        <th>Grupo B</th>
+        <th>Pontos</th>
+        <th>Gols</th>
+      </table>
+      <table class="C">
+        <th>Grupo C</th>
+        <th>Pontos</th>
+        <th>Gols</th>
+      </table>
+      <table class="D">
+        <th>Grupo D</th>
+        <th>Pontos</th>
+        <th>Gols</th>
+      </table>
+      <table class="E">
+        <th>Grupo E</th>
+        <th>Pontos</th>
+        <th>Gols</th>
+      </table>
+      <table class="F">
+        <th>Grupo F</th>
+        <th>Pontos</th>
+        <th>Gols</th>
+      </table>
+      <table class="G">
+        <th>Grupo G</th>
+        <th>Pontos</th>
+        <th>Gols</th>
+      </table>
+      <table class="H">
+        <th>Grupo H</th>
+        <th>Pontos</th>
+        <th>Gols</th>
+      </table>
+
+      <button onclick="seeTeams()">Ver times</button>
+    </div>
+
+    <div class="div-log column">
+      <h1 class="match-header"></h1>
+      <div class="row">
+        <div class="column align-center">
+          <p class="teamA-name"></p>
+          <p class="teamA-goals"></p>
+        </div>
+        <div class="column align-center">
+          <p class="team-x">X</p>
+          <p class="team-x">-</p>
+        </div>
+        <div class="column align-center">
+          <p class="teamB-name"></p>
+          <p class="teamB-goals"></p>
+        </div>
+      </div>
+      <p class="result"></p>
+      <button onclick="startGP(teams)" class="start-button">Iniciar competição</button>
+    </div>
+  </section>
+
+  <!-- <button onclick="console.log(teams)"></button> -->
+
+  <script src="js/groupPhase.js"></script>
+  <script src="js/knockouts.js"></script>
+</body>
+
+</html>

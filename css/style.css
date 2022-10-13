@@ -1,0 +1,50 @@
+body{
+  background-color: plum
+}
+
+td, th {
+  padding: 0.5%;
+  font-style: oblique;
+  color:black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 2px black solid;
+  width: 120px;
+}
+
+th {
+  font-weight: bold;
+}
+
+td {
+  text-align: center;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+  width: 120px;
+}
+
+.match-header {
+  text-align: center;
+}
+
+.div-log {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 20%;
+}
+
+.team-x {
+  display: none;
+}
+
+
