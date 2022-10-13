@@ -1,7 +1,7 @@
 // Faz uma requisição HTTP GET para a API e recebe os nomes das seleções e seus tokens
 async function get() {
   let url = "https://estagio.geopostenergy.com/WorldCup/GetAllTeams";
-  let gitUser = "DanielSant276";
+  let gitUser = "PabloReiis";
   let teams;
 
   await $.ajax({
@@ -23,7 +23,7 @@ async function get() {
 // Faz uma requisição HTTP POST
 async function post() {
   let url = "https://estagio.geopostenergy.com/WorldCup/InsertFinalResult";
-  let gitUser = "DanielSant276";
+  let gitUser = "PabloReiis";
   let response = {
     "equipeA": "",
     "equipeB": "",
